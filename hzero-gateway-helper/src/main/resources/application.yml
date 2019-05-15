@@ -83,6 +83,9 @@ zuul:
     hrpt:
       path: /hrpt/**
       serviceId: hzero-report
+    tms:
+      path: /tms/**
+      serviceId: tms-platform
   semaphore:
     max-semaphores: 300
   sensitiveHeaders: Cookie,Set-Cookie
